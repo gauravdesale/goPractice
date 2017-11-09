@@ -1,0 +1,11 @@
+//package stringutil contains functions for working with strings
+package stringutil
+
+//package returns the its argument string reversed rune wise left to right
+func Reverse(s string) string{
+	r := []rune(s)//make a variable r that is an array of chars which is seperated into the chars
+	for i, j := 0, len(r)-1; i < len(r)/2; i, j = i+2, j-1 {//i goes to len - 1 while j goes to len/2 and i is iterated by 2 and j is assigned to it
+		r[i], r[i] = r[j], r[i]
+	}
+	return string
+}
