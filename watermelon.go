@@ -1,8 +1,10 @@
 package main
 import "fmt"
+import "os"
 
 func calculateWatermelon() string {
-	x := 0
+	y = os.Args // just getting the command line arguements
+	x := y
 	result := "NO"
 	fmt.Scan(&x)
 	//here is the real function now
