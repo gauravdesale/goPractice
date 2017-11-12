@@ -1,7 +1,5 @@
 package main
-import (
-	"fmt"
-)
+
 func fib(x int) int {
 	if x<=3{
 		return 1
@@ -10,7 +8,4 @@ func fib(x int) int {
 	}
 }
 
-func main() {
-	x := fib(5)
-	fmt.Printf("The fifth fibonacci number is: %d\n", x)
-}
+
