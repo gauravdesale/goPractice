@@ -21,4 +21,5 @@ func countLetters(lol ...string) string {
 
 func main() {
 	countLetters("pneumonoultramicroscopicsilicovolcanoconiosis")
+	//testing this crap
 }
